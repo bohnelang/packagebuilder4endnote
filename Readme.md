@@ -23,7 +23,7 @@ After installation at user's computer the "FindFullText" of EndNote will work ou
 2. **Copy the following files** into this new folder: 
 	* **Your Endnote msi** file (The name of this file has to start with EN and ends with .msi like EN20Inst.msi. This is very important!)
 	* **Your License.dat** file (the attached file of this repository is invalid and is ment to illutrate the syntax of the file only.)
-	* This **Builder.exe** program (https://github.com/bohnelang/packagebuilder4endnote/blob/master/Builder.exe)
+	* This **Builder.exe** program (https://raw.githubusercontent.com/bohnelang/packagebuilder4endnote/master/Builder.exe)
 	* This **settings.bat** script by  (https://raw.githubusercontent.com/bohnelang/packagebuilder4endnote/master/settings.bat) and save this page as settings.bat in the same directory (maybe by right-click of your mouse).  Have a look a the settings section below. If you are in doubt about the correct URL values, do not hesitate to ask your library IT support.
 	
 3. **Edit the file settings.bat** and change the values of the link resolver setting to those of your environment
