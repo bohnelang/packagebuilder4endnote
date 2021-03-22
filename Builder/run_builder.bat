@@ -36,3 +36,5 @@ for %%a in ("%CALLING_PATH%\*.msi") do (
 
  rem pause 
 )
+
+exit

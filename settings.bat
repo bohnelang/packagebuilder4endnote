@@ -15,3 +15,4 @@ SET CALLING_PATH=%CD%
 
 IF EXIST Builder.exe Builder.exe
 
+exit
