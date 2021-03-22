@@ -33,7 +33,7 @@ After installation at user's computer the "FindFullText" of EndNote will work ou
 7. A **new file should appear** in the same folder (like EN20Inst.msi.exe). This is your new EndNote installation package.
 8. Test this installation file before you distribute it to the library users.
 
-![Create1](https://raw.githubusercontent.com/bohnelang/packagebuilder4endnote/master/doc/builder1.jp1)
+![Create1](https://raw.githubusercontent.com/bohnelang/packagebuilder4endnote/master/doc/builder1.jpg)
 
 ![Create2](https://raw.githubusercontent.com/bohnelang/packagebuilder4endnote/master/doc/builder2.jpg)
 
@@ -105,5 +105,4 @@ SET XFFTAUTHENTICATEURL="https://login.ezproxy.foo.com/login"
 *  EndNote: https://endnote.com/ 
 
 ## Acknowledgment
-*  Mathias Krummheuer (Product Support Manager & Trainer, 
-Adept Scientific GmbH), Frankfurt, 2013, for providing the transform.mst  and install.bat file. 
+*  Mathias Krummheuer, Frankfurt, 2013, for providing the transform.mst  and install.bat file. 
