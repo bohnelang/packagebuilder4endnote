@@ -98,7 +98,7 @@ SET XFFTAUTHENTICATEURL="https://login.ezproxy.foo.com/login"
 ```
 
 ### Automatisation of provider selection by redi.php script
-For our environment I develop a redi-php script: This redi.php (https://raw.githubusercontent.com/bohnelang/packagebuilder4endnote/master/doc/redi_ma.php)script fetches the ReDI result page, at which the user can select the fulltext provider. Endnote cannot click or select by itself and thus this script does a dump selection: always select first or always select last. Maybe if your library is ReDI linkresolver subscriber you can modify it for your use. 
+For our environment I develop a redi-php script: This redi.php (https://raw.githubusercontent.com/bohnelang/packagebuilder4endnote/master/doc/redi_ma.php)  script fetches the ReDI result page, at which the user can select the fulltext provider. Endnote cannot click or select by itself and thus this script does a dump selection: always select first or always select last. Maybe if your library is ReDI linkresolver subscriber you can modify it for your use. 
 
 ## Links and Licenses
 
