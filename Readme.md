@@ -66,7 +66,7 @@ msiexec /i %MSI% TRANSFORMS="transform.mst" INSTALLALLCONTENTFILES="yes" FFTUSEI
 
 
 ### setting.bat
-The codelines below show your library settings. We use the ReDi link resolver of UB Freiburg and EZProxy for eJournal remote access. 
+The codelines below show your library settings. We use the ReDI link resolver of UB Freiburg and EZProxy for eJournal remote access. 
 
 Our settings:
 ```
@@ -97,12 +97,15 @@ SET XFFTOPENURLRESOLVER="https://login.ezproxy.foo.com/login?url=http://sfx.foo.
 SET XFFTAUTHENTICATEURL="https://login.ezproxy.foo.com/login" 
 ```
 
+### Automatisation of provider selection by redi.php script
+For our environment I develop a redi-php script: This redi.php (https://raw.githubusercontent.com/bohnelang/packagebuilder4endnote/master/doc/redi_ma.php)script fetches the ReDI result page, at which the user can select the fulltext provider. Endnote cannot click or select by itself and thus this script does a dump selection: always select first or always select last. Maybe if your library is ReDI linkresolver subscriber you can modify it for your use. 
 
 ## Links and Licenses
 
 * 7z.exe: Sebastian Riehm, Sören Finster. Licence: GNU LGPL (https://www.gnu.org/licenses/lgpl-3.0.de.html), Homepage and source page: https://www.7-zip.org
 *  ChilkatZipSE.exe, Chilkat Software,  Licence: CC3.0 (https://creativecommons.org/licenses/by/3.0/), Homepage: https://www.chilkatsoft.com/ChilkatSfx.asp
 *  EndNote: https://endnote.com/ 
+*  ReDI (Regionale Datenbank-Information) von der UB-Freiburg: http://www-s.redi-bw.de/links/?rl_site=unifr&rl_action=services
 
 ## Acknowledgment
 *  Mathias Krummheuer, Frankfurt, 2013, for providing the transform.mst  and install.bat file. 
